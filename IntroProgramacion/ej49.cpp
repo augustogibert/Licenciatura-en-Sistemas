@@ -20,16 +20,19 @@ int main(){
 			if (ins[i]<0) printf("Error, vuelva a cargar un nro mayor a cero.\n");
 		} while (ins[i]<0);
 		total += ins[i]; // total = total + ins[i]
-		if (i ==0) menor = i; //valor de referencia va a ser la posición 
+		if (i ==0) menor = i; //valor de referencia va a ser la posiciï¿½n 
 		else if (ins[i] < ins[menor]) menor = i;
 	}
 	
 	//mostrar en pantalla lo cargado en columnas
 	for (int i=0; i<TAM; i++) printf("%c\t%d\n", dep[i], ins[i]);
+
+
+	for (int i=0; i<TAM; i++) printf("%c\t%d\n", dep[i], ins[i]);
 	
 	
 	
-	//conclusiones con los datos que cargué
+	//conclusiones con los datos que carguï¿½
 	//calcular y mostrar cuantos chicos hay en total
 	printf("Hay %d chicos inscriptos en deportes\n", total);
 	
