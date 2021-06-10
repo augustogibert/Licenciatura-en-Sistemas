@@ -26,12 +26,7 @@ int main(){
 	
 	//mostrar en pantalla lo cargado en columnas
 	for (int i=0; i<TAM; i++) printf("%c\t%d\n", dep[i], ins[i]);
-
-
-	for (int i=0; i<TAM; i++) printf("%c\t%d\n", dep[i], ins[i]);
-	
-	
-	
+		
 	//conclusiones con los datos que cargu�
 	//calcular y mostrar cuantos chicos hay en total
 	printf("Hay %d chicos inscriptos en deportes\n", total);
